@@ -1,5 +1,5 @@
 def capitalize(s):
-	for x in s[:].split():
+	for x in s.split():
 		s = s.replace(x, x.capitalize())
 	return s
 string = raw_input()
